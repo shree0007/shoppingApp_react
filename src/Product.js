@@ -4,13 +4,18 @@ import Card from 'react-bootstrap/Card';
 const Product = (props) => {
     const { id, title, price, description, category, image, rating } = props;
     return (
-        <Card >
+        <Card className='card' style={{ width: '38rem', padding: '2.5rem', background: 'linear-gradient(to right, rgba(102, 126, 234, 0.5), rgba(118, 75, 162, 0.5))' }}>
             {/* <h1>id: {id}</h1> */}
-            <h5>title: {title}</h5>
-            <p>price: {price}</p>
-            <p>description: {description}</p>
-            <p>category: {category}</p>
-            <Card.Img src={image} alt='image' />
+            <div className='image' style={{ height: '450px', marginBottom: '2rem' }}>
+                <Card.Img style={{ height: '100%', marginBottom: '1rem', borderRadius: '8px' }}
+                    src={image} alt='image' />
+            </div>
+            <div style={{ backgroundColor: 'white', height: '100%', padding: '1rem', borderRadius: '8px' }}>
+                <Card.Title>{title}</Card.Title>
+                <Card.Text>Price: {price} €</Card.Text>
+                <Card.Text>Description: {description}</Card.Text>
+                <Card.Text>Category: {category}</Card.Text>
+            </div>
         </Card>
 
     )
