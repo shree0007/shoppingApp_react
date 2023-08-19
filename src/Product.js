@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 const Product = (props) => {
     const { id, title, price, description, category, image, rating } = props;
     return (
-        <Card className='card' style={{ width: '38rem', padding: '2.5rem', background: 'linear-gradient(to right, rgba(102, 126, 234, 0.5), rgba(118, 75, 162, 0.5))' }}>
+        <Card className='card' style={{ width: '38rem', padding: '2.5rem', background: 'linear-gradient(to bottom, rgba(106,17,203,0.5), rgba(37,117,252,0.5))' }}>
             {/* <h1>id: {id}</h1> */}
             <div className='image' style={{ height: '450px', marginBottom: '2rem' }}>
                 <Card.Img style={{ height: '100%', marginBottom: '1rem', borderRadius: '8px' }}
