@@ -8,7 +8,7 @@ console.log(products)
 
 const ProductsList = () => {
     return (
-        <div>
+        <div style={{ backgroundColor: 'black' }}>
             <NavBar />
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1.5rem', justifyContent: 'center', marginTop: '1rem', marginBottom: '1rem' }}>
 

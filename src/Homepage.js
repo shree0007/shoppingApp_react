@@ -7,13 +7,15 @@ import Button from 'react-bootstrap/Button';
 
 const Homepage = () => {
     return (
-        <div>
+        <div style={{ backgroundImage: `url(${image}` }}>
             <NavBar />
-            <div style={{ height: '100vh', backgroundImage: `url(${image}`, backgroundPosition: 'center center', backgroundSize: 'cover center', backgroundRepeat: 'no-repeat', padding: '3rem' }}>
-                <h1 style={{ color: 'brown' }}>Welcome to SHreeShopHub</h1>
-                <p>- Empowering Your Shopping Experience.</p>
+            <div style={{ height: '100vh', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', padding: '3rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <div style={{ width: '600px' }}>
+                    <h1 style={{ color: 'brown', fontWeight: '900' }}>Welcome to ShreeShopHub</h1>
+                    <h5 style={{ color: 'white', marginBottom: '2rem' }}>- Empowering Your Shopping Experience.</h5>
 
-                <Link to={'/products'}><Button variant='primary'>Browse all products</Button></Link>
+                    <Link to={'/products'}><Button variant='primary'>Browse all products</Button></Link>
+                </div>
             </div>
 
 

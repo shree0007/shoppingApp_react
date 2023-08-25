@@ -6,7 +6,7 @@ const CustomNavbar = () => {
     return (
         <Navbar bg="light" expand="lg" style={{ background: 'linear-gradient(to right, rgba(72,198,239,0.5), rgba(111,134,214,0.5))' }}>
             <div className="container">
-                <Navbar.Brand as={Link} to="/" style={{ fontWeight: '900', color: 'green' }}>
+                <Navbar.Brand as={Link} to="/" style={{ fontWeight: '900', color: 'brown' }}>
                     ShreeShopHub
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbar-nav" />
