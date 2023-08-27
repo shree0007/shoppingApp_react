@@ -4,5 +4,5 @@
 - Products data displayed in the app is obtained from fakestore api.
 
 # Screenshots
-![Alt text](homepage.png)
-![Alt text](products.png)
+![Alt text](./src//assets/homepage.png)
+![Alt text](./src/assets/products.png)

@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './NavBar';
 import { Link } from 'react-router-dom';
-import image from './homepage.jpg';
+import image from './assets/homepage.jpg';
 import Button from 'react-bootstrap/Button';
 
 

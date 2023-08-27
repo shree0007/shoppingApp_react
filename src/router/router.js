@@ -2,10 +2,10 @@ import {
     createBrowserRouter
 } from "react-router-dom";
 
-import Test from '../Test';
+import About from '../About';
 import ProductsList from '../ProductsList';
 import Homepage from '../Homepage';
-import Product from '../Product';
+
 
 
 
@@ -15,17 +15,14 @@ const router = createBrowserRouter([
         element: <Homepage />,
     },
     {
-        path: "/test",
-        element: <Test />,
+        path: "/about-us",
+        element: <About />,
     },
     {
         path: "/products",
         element: <ProductsList />,
     },
-    // {
-    //     path: "/products/:id",
-    //     element: <Product />,
-    // },
+
 ]);
 
 export default router;

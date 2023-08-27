@@ -18,8 +18,8 @@ const CustomNavbar = () => {
                         <Nav.Link as={Link} to="/products">
                             Products
                         </Nav.Link>
-                        <Nav.Link as={Link} to="/test">
-                            Test
+                        <Nav.Link as={Link} to="/about-us">
+                            About us
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
